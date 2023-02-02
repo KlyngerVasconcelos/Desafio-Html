@@ -1,0 +1,92 @@
+/*----- layout -----*/
+html, body,.home{
+    height: 100%;
+    background: #E6E6FA;
+    font-size: 16px;
+}
+
+.img-logo {
+    height: 40px;
+    width: 220px;
+    display: block;
+    background: url("../img/iconPP.png") no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+.card{
+    font-size: 18px;
+    margin: auto;
+    max-width:890px;
+    /*padding:16px;   */
+}
+
+.navbar-dark {
+    background: #006400;
+}
+
+.nav-link:focus, .nav-link {
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: black;
+}
+/*----- home -----*/
+.home-body {
+    height: 80%;
+    display: table;
+}
+
+.home-text {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*----- conteudo -----*/
+
+/*.conteudo {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}*/
+
+.content {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.content p {
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+.content-sobre {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.content-sobre p {
+    padding-left: 15px;
+}
+
+form {
+    padding: 10px;
+}
+
+.form-index {
+    margin-top: 30px;
+}
+
+.form-control:focus {
+    border-color: #228B22;
+}
+
+.form-float {
+    float: left;
+}
+
+/* Campos normais são brancos, campos com erro são vermelhos */
+input[type="text"] { background-color: white; color: black; }
+/*input:invalid      { background-color: #fcc ; color: red; }*/
